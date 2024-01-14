@@ -56,13 +56,16 @@ nav ul li {
 /* banner start */
 main {
   max-width: 1440px;
-  margin: 70px auto;
+  margin: 100px auto;
 }
 .banner-section {
   display: flex;
   justify-content: space-between;
 }
-
+.banner-contanter {
+  width: 100%;
+  max-width: 500px;
+}
 .banner-contanter .banner-title {
   font-size: 3.2rem;
   font-weight: 700;
@@ -85,7 +88,7 @@ main {
   border: none;
   padding: 10px 24px;
 }
-.banner-img {
+.banner-img img {
   max-width: 400px;
   width: 100%;
 }
@@ -98,12 +101,17 @@ main {
     flex-direction: column-reverse;
   }
   nav > ul {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     margin-top: 20px;
+    justify-content: space-around;
   }
   .heading-section {
     font-size: 1rem;
     margin: 0 auto;
+  }
+  .banner-img img {
+    width: 100%;
+    padding: 20px;
   }
 }
