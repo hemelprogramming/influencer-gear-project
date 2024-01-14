@@ -97,4 +97,13 @@ main {
     flex-direction: column;
     flex-direction: column-reverse;
   }
+  nav > ul {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .heading-section {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
 }
