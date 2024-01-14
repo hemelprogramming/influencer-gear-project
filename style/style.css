@@ -79,6 +79,7 @@ main {
   color: var(--first-color);
 }
 .banner-contanter .btn-banner {
+  width: 196px;
   font-size: 1rem;
   font-weight: 700;
   font-family: var(--poppins);
@@ -92,6 +93,7 @@ main {
   max-width: 400px;
   width: 100%;
 }
+/* responsive start */
 @media screen and (max-width: 576px) {
   nav {
     flex-direction: column;
@@ -112,6 +114,20 @@ main {
   }
   .banner-img img {
     width: 100%;
-    padding: 20px;
+    padding: 50px;
+  }
+  .banner-contanter .banner-title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0px 20px;
+  }
+  .banner-contanter .banner-description {
+    text-align: center;
+    padding: 0px 20px;
+  }
+  .banner-contanter .btn-banner {
+    margin: 0 auto;
+    width: 196px;
+    text-align: center;
   }
 }
