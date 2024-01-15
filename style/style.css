@@ -99,6 +99,10 @@ main {
     justify-content: center;
     align-items: center;
   }
+  nav,
+  ul {
+    padding: 0px 20px;
+  }
   .banner-section {
     flex-direction: column-reverse;
     justify-content: center;
@@ -110,6 +114,8 @@ main {
   }
   .banner-contanter .banner-description {
     text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
   .btn-banner {
     margin: 0 auto;
