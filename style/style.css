@@ -104,6 +104,9 @@ main {
   .heading-section {
     text-align: center;
   }
+  ul {
+    padding: 0px 30px;
+  }
   nav ul li {
     margin: auto;
   }
@@ -113,5 +116,19 @@ main {
   .banner-img img {
     width: 100%;
     padding: 50px;
+  }
+  .banner-contanter .banner-title {
+    font-size: 2rem;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .banner-contanter .banner-description {
+    text-align: center;
+    padding: 20px;
+  }
+  .btn-banner {
+    text-align: center;
+    margin: 0 auto;
   }
 }
